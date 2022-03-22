@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('../img/foto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.card{
+    
+    justify-content: center;
+    background-color: #fddd8495;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 4px 4px 3px 1px #01122b60;
+
+}
+.titulo_login{
+    color:black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+input{
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fddd8445;
+}
+.conteudos{
+    font-weight: bold;
+    margin-top: 10px;
+    color:black;
+}
+.btn_login{
+    border-radius: 20px;
+    font-weight: bold;
+}
+.btn_login:hover{
+    background-color: #ffffff50;
+}
+.input_es{
+    border:none;
+}
